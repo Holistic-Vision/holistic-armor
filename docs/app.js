@@ -1,5 +1,17 @@
-const CORE_BASE = './assets/core-pack';
+const CORE_BASE = 'assets/core-pack';
 
+
+
+// --- Base path helper (GitHub Pages project sites) ---
+const HA_BASE = (()=> {
+  // e.g. /holistic-armor/ or / (user site)
+  const p = location.pathname;
+  // If served from /<repo>/..., keep first segment as base
+  const parts = p.split('/').filter(Boolean);
+  if (parts.length >= 1 && location.host.endsWith('github.io')) return `/${parts[0]}/`;
+  return '/';
+})();
+const withBase = (rel)=> rel.startsWith('http') ? rel : (HA_BASE.replace(/\/$/,'/') + rel.replace(/^\//,''));
 let state = loadState() || defaultState();
 
 function ensureConsents(){
@@ -26,6 +38,24 @@ async function fetchJson(path){
 }
 
 const cache = {};
+
+function normalizeSessions(arr, prefix){
+  if(!Array.isArray(arr)) return [];
+  const seen = new Set();
+  return arr.map((s, idx)=>{
+    const t = (s && (s.title||s.name||'')) || '';
+    const baseId = (s && (s.id||s.sessionId||s.slug)) || `${prefix}-${idx+1}`;
+    const id = String(baseId).trim() || `${prefix}-${idx+1}`;
+    const dur = s.durationMin ?? s.duration ?? s.minutes ?? null;
+    const out = {...s, id, title: t || `Session ${idx+1}`, durationMin: (dur? Number(dur): null)};
+    if(seen.has(out.id)){
+      out.id = `${out.id}-${idx+1}`;
+    }
+    seen.add(out.id);
+    return out;
+  });
+}
+
 async function loadCore(){
   if(cache.core) return cache.core;
   // Try load known files (from manifest paths if present)
