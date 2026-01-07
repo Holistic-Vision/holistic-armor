@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "AdherenceEvent",
+  "type": "object",
+  "required": [
+    "userId",
+    "dateTime",
+    "category",
+    "status"
+  ],
+  "properties": {
+    "userId": {
+      "type": "string"
+    },
+    "dateTime": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "category": {
+      "type": "string",
+      "enum": [
+        "movement",
+        "nutrition",
+        "breath",
+        "sleep",
+        "meditation",
+        "hydration",
+        "journal"
+      ]
+    },
+    "itemId": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "done",
+        "skipped",
+        "partial"
+      ]
+    },
+    "score": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 100
+    },
+    "notes": {
+      "type": "string",
+      "maxLength": 2000
+    }
+  },
+  "additionalProperties": false
+}

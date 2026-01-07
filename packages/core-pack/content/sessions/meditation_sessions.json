@@ -1,0 +1,400 @@
+{
+  "sessions": [
+    {
+      "id": "ses_med_0001",
+      "module": "meditation",
+      "title": "Feu intérieur (Nordic) — 7 min",
+      "durationSec": 420,
+      "level": "beginner",
+      "focus": [
+        "trad_nordic_symbolic",
+        "support_stress_down"
+      ],
+      "steps": [
+        {
+          "type": "intro",
+          "name": "Intention",
+          "durationSec": 30
+        },
+        {
+          "type": "guide",
+          "name": "Guidance",
+          "durationSec": 360
+        },
+        {
+          "type": "outro",
+          "name": "Clôture",
+          "durationSec": 30
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_meditation_orange",
+        "audioGuideId": "aud_voice_nordic_0001",
+        "galleryImageIds": [
+          "img_symbol_algiz"
+        ]
+      }
+    },
+    {
+      "id": "ses_med_0002",
+      "module": "meditation",
+      "title": "Scan corporel — 10 min",
+      "durationSec": 600,
+      "level": "beginner",
+      "focus": [
+        "trad_western",
+        "support_sleep"
+      ],
+      "steps": [
+        {
+          "type": "intro",
+          "name": "Intention",
+          "durationSec": 30
+        },
+        {
+          "type": "guide",
+          "name": "Guidance",
+          "durationSec": 540
+        },
+        {
+          "type": "outro",
+          "name": "Clôture",
+          "durationSec": 30
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_meditation_orange",
+        "audioGuideId": "aud_voice_neutral_sleep_0001"
+      }
+    },
+    {
+      "id": "ses_med_0003",
+      "module": "meditation",
+      "title": "Stoïcien — ce qui dépend de toi (5 min)",
+      "durationSec": 300,
+      "level": "beginner",
+      "focus": [
+        "trad_stoic",
+        "goal_focus"
+      ],
+      "steps": [
+        {
+          "type": "intro",
+          "name": "Intention",
+          "durationSec": 30
+        },
+        {
+          "type": "guide",
+          "name": "Guidance",
+          "durationSec": 240
+        },
+        {
+          "type": "outro",
+          "name": "Clôture",
+          "durationSec": 30
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_meditation_orange",
+        "audioGuideId": "aud_voice_neutral_0003",
+        "galleryImageIds": [
+          "img_symbol_tiwaz"
+        ]
+      }
+    },
+    {
+      "id": "ses_med_0004",
+      "module": "meditation",
+      "title": "MTC symbolique — calme du souffle (7 min)",
+      "durationSec": 420,
+      "level": "beginner",
+      "focus": [
+        "trad_mtc_symbolic",
+        "support_stress_down"
+      ],
+      "steps": [
+        {
+          "type": "intro",
+          "name": "Intention",
+          "durationSec": 30
+        },
+        {
+          "type": "guide",
+          "name": "Guidance",
+          "durationSec": 360
+        },
+        {
+          "type": "outro",
+          "name": "Clôture",
+          "durationSec": 30
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_meditation_orange",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_med_0005",
+      "module": "meditation",
+      "title": "Ayurvéda symbolique — ancrage (7 min)",
+      "durationSec": 420,
+      "level": "beginner",
+      "focus": [
+        "trad_ayurveda_symbolic",
+        "support_recovery"
+      ],
+      "steps": [
+        {
+          "type": "intro",
+          "name": "Intention",
+          "durationSec": 30
+        },
+        {
+          "type": "guide",
+          "name": "Guidance",
+          "durationSec": 360
+        },
+        {
+          "type": "outro",
+          "name": "Clôture",
+          "durationSec": 30
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_meditation_orange",
+        "audioGuideId": "aud_voice_neutral_0002",
+        "galleryImageIds": [
+          "img_symbol_ingwaz"
+        ]
+      }
+    },
+    {
+      "id": "ses_med_0006",
+      "module": "meditation",
+      "title": "Clôture du jour (5 min)",
+      "durationSec": 300,
+      "level": "beginner",
+      "focus": [
+        "support_sleep",
+        "support_stress_down"
+      ],
+      "steps": [
+        {
+          "type": "intro",
+          "name": "Intention",
+          "durationSec": 30
+        },
+        {
+          "type": "guide",
+          "name": "Guidance",
+          "durationSec": 240
+        },
+        {
+          "type": "outro",
+          "name": "Clôture",
+          "durationSec": 30
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_meditation_orange",
+        "audioGuideId": "aud_voice_neutral_sleep_0001"
+      }
+    },
+    {
+      "id": "ses_med_0007",
+      "module": "meditation",
+      "title": "Pleine conscience — respiration (5 min)",
+      "durationSec": 300,
+      "level": "beginner",
+      "focus": [
+        "trad_western",
+        "support_stress_down"
+      ],
+      "steps": [
+        {
+          "type": "intro",
+          "name": "Intention",
+          "durationSec": 30
+        },
+        {
+          "type": "guide",
+          "name": "Guidance",
+          "durationSec": 240
+        },
+        {
+          "type": "outro",
+          "name": "Clôture",
+          "durationSec": 30
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_meditation_orange",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_med_0008",
+      "module": "meditation",
+      "title": "Nordic — endurance calme (5 min)",
+      "durationSec": 300,
+      "level": "beginner",
+      "focus": [
+        "trad_nordic_symbolic",
+        "goal_focus"
+      ],
+      "steps": [
+        {
+          "type": "intro",
+          "name": "Intention",
+          "durationSec": 30
+        },
+        {
+          "type": "guide",
+          "name": "Guidance",
+          "durationSec": 240
+        },
+        {
+          "type": "outro",
+          "name": "Clôture",
+          "durationSec": 30
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_meditation_orange",
+        "audioGuideId": "aud_voice_nordic_0002",
+        "galleryImageIds": [
+          "img_symbol_dagaz"
+        ]
+      }
+    },
+    {
+      "id": "ses_med_0009",
+      "module": "meditation",
+      "title": "Stoïcien — préméditation (5 min)",
+      "durationSec": 300,
+      "level": "beginner",
+      "focus": [
+        "trad_stoic",
+        "support_stress_down"
+      ],
+      "steps": [
+        {
+          "type": "intro",
+          "name": "Intention",
+          "durationSec": 30
+        },
+        {
+          "type": "guide",
+          "name": "Guidance",
+          "durationSec": 240
+        },
+        {
+          "type": "outro",
+          "name": "Clôture",
+          "durationSec": 30
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_meditation_orange",
+        "audioGuideId": "aud_voice_neutral_0003"
+      }
+    },
+    {
+      "id": "ses_med_0010",
+      "module": "meditation",
+      "title": "MTC — présence (5 min)",
+      "durationSec": 300,
+      "level": "beginner",
+      "focus": [
+        "trad_mtc_symbolic",
+        "goal_focus"
+      ],
+      "steps": [
+        {
+          "type": "intro",
+          "name": "Intention",
+          "durationSec": 30
+        },
+        {
+          "type": "guide",
+          "name": "Guidance",
+          "durationSec": 240
+        },
+        {
+          "type": "outro",
+          "name": "Clôture",
+          "durationSec": 30
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_meditation_orange",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_med_0011",
+      "module": "meditation",
+      "title": "Ayurvéda — gratitude (5 min)",
+      "durationSec": 300,
+      "level": "beginner",
+      "focus": [
+        "trad_ayurveda_symbolic",
+        "support_recovery"
+      ],
+      "steps": [
+        {
+          "type": "intro",
+          "name": "Intention",
+          "durationSec": 30
+        },
+        {
+          "type": "guide",
+          "name": "Guidance",
+          "durationSec": 240
+        },
+        {
+          "type": "outro",
+          "name": "Clôture",
+          "durationSec": 30
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_meditation_orange",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_med_0012",
+      "module": "meditation",
+      "title": "Laïque — bienveillance (7 min)",
+      "durationSec": 420,
+      "level": "beginner",
+      "focus": [
+        "trad_western",
+        "support_stress_down"
+      ],
+      "steps": [
+        {
+          "type": "intro",
+          "name": "Intention",
+          "durationSec": 30
+        },
+        {
+          "type": "guide",
+          "name": "Guidance",
+          "durationSec": 360
+        },
+        {
+          "type": "outro",
+          "name": "Clôture",
+          "durationSec": 30
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_meditation_orange",
+        "audioGuideId": "aud_voice_neutral_0004"
+      }
+    }
+  ]
+}

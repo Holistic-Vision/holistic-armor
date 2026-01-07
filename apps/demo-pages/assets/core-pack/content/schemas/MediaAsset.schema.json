@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "MediaAsset",
+  "type": "object",
+  "required": [
+    "id",
+    "type",
+    "format",
+    "title",
+    "uri"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "image",
+        "video",
+        "audio"
+      ]
+    },
+    "format": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "durationSec": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "language": {
+      "type": "string"
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "uri": {
+      "type": "string"
+    },
+    "thumbUri": {
+      "type": "string"
+    },
+    "credits": {
+      "type": "object"
+    },
+    "controls": {
+      "type": "object"
+    }
+  }
+}

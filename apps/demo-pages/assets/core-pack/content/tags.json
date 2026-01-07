@@ -1,0 +1,52 @@
+{
+  "global": [
+    "goal_energy",
+    "goal_fat_loss_support",
+    "goal_recovery",
+    "goal_focus",
+    "goal_spirituality",
+    "level_beginner",
+    "level_intermediate",
+    "level_advanced",
+    "time_5min",
+    "time_10min",
+    "time_20min",
+    "time_30min"
+  ],
+  "movement": [
+    "mov_mobility",
+    "mov_strength",
+    "mov_yoga",
+    "mov_breath_active",
+    "mov_recovery",
+    "zone_knees",
+    "zone_lower_back",
+    "zone_shoulders",
+    "zone_hips"
+  ],
+  "nutrition": [
+    "nut_low_carb",
+    "nut_moderate_carb",
+    "nut_high_carb",
+    "diet_omnivore",
+    "diet_vegan",
+    "diet_halal",
+    "diet_kosher",
+    "diet_gluten_free",
+    "diet_dairy_free"
+  ],
+  "support": [
+    "support_sleep",
+    "support_stress_down",
+    "support_energy",
+    "support_libido",
+    "support_recovery"
+  ],
+  "traditions": [
+    "trad_western",
+    "trad_mtc_symbolic",
+    "trad_ayurveda_symbolic",
+    "trad_nordic_symbolic",
+    "trad_stoic"
+  ]
+}

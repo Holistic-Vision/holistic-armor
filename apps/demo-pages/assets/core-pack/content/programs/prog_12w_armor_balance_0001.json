@@ -1,0 +1,798 @@
+{
+  "id": "prog_12w_armor_balance_0001",
+  "title": "Armor Balance 12 semaines",
+  "goalTags": [
+    "goal_energy",
+    "goal_fat_loss_support",
+    "support_sleep",
+    "support_stress_down"
+  ],
+  "weeks": [
+    {
+      "week": 1,
+      "days": [
+        {
+          "dow": 1,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0001"
+          ],
+          "sleepRoutineId": "ses_slp_0001"
+        },
+        {
+          "dow": 2,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0001"
+          ],
+          "breathId": "ses_bre_0001",
+          "medId": "ses_med_0001"
+        },
+        {
+          "dow": 3,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0003"
+          ],
+          "sleepRoutineId": "ses_slp_0003"
+        },
+        {
+          "dow": 4,
+          "carbDayType": "high",
+          "sessionIds": [
+            "ses_mov_0002"
+          ],
+          "breathId": "ses_bre_0002",
+          "medId": "ses_med_0002"
+        },
+        {
+          "dow": 5,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0005"
+          ],
+          "sleepRoutineId": "ses_slp_0005"
+        },
+        {
+          "dow": 6,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0003"
+          ],
+          "breathId": "ses_bre_0003",
+          "medId": "ses_med_0003"
+        },
+        {
+          "dow": 7,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0007"
+          ],
+          "sleepRoutineId": "ses_slp_0007"
+        }
+      ]
+    },
+    {
+      "week": 2,
+      "days": [
+        {
+          "dow": 1,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0001"
+          ],
+          "sleepRoutineId": "ses_slp_0001"
+        },
+        {
+          "dow": 2,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0004"
+          ],
+          "breathId": "ses_bre_0004",
+          "medId": "ses_med_0003"
+        },
+        {
+          "dow": 3,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0003"
+          ],
+          "sleepRoutineId": "ses_slp_0003"
+        },
+        {
+          "dow": 4,
+          "carbDayType": "high",
+          "sessionIds": [
+            "ses_mov_0005"
+          ],
+          "breathId": "ses_bre_0005",
+          "medId": "ses_med_0004"
+        },
+        {
+          "dow": 5,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0005"
+          ],
+          "sleepRoutineId": "ses_slp_0005"
+        },
+        {
+          "dow": 6,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0006"
+          ],
+          "breathId": "ses_bre_0006",
+          "medId": "ses_med_0005"
+        },
+        {
+          "dow": 7,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0007"
+          ],
+          "sleepRoutineId": "ses_slp_0007"
+        }
+      ]
+    },
+    {
+      "week": 3,
+      "days": [
+        {
+          "dow": 1,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0001"
+          ],
+          "sleepRoutineId": "ses_slp_0001"
+        },
+        {
+          "dow": 2,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0007"
+          ],
+          "breathId": "ses_bre_0007",
+          "medId": "ses_med_0005"
+        },
+        {
+          "dow": 3,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0003"
+          ],
+          "sleepRoutineId": "ses_slp_0003"
+        },
+        {
+          "dow": 4,
+          "carbDayType": "high",
+          "sessionIds": [
+            "ses_mov_0008"
+          ],
+          "breathId": "ses_bre_0008",
+          "medId": "ses_med_0006"
+        },
+        {
+          "dow": 5,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0005"
+          ],
+          "sleepRoutineId": "ses_slp_0005"
+        },
+        {
+          "dow": 6,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0009"
+          ],
+          "breathId": "ses_bre_0009",
+          "medId": "ses_med_0007"
+        },
+        {
+          "dow": 7,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0007"
+          ],
+          "sleepRoutineId": "ses_slp_0007"
+        }
+      ]
+    },
+    {
+      "week": 4,
+      "days": [
+        {
+          "dow": 1,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0001"
+          ],
+          "sleepRoutineId": "ses_slp_0001"
+        },
+        {
+          "dow": 2,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0010"
+          ],
+          "breathId": "ses_bre_0010",
+          "medId": "ses_med_0007"
+        },
+        {
+          "dow": 3,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0003"
+          ],
+          "sleepRoutineId": "ses_slp_0003"
+        },
+        {
+          "dow": 4,
+          "carbDayType": "high",
+          "sessionIds": [
+            "ses_mov_0011"
+          ],
+          "breathId": "ses_bre_0011",
+          "medId": "ses_med_0008"
+        },
+        {
+          "dow": 5,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0005"
+          ],
+          "sleepRoutineId": "ses_slp_0005"
+        },
+        {
+          "dow": 6,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0012"
+          ],
+          "breathId": "ses_bre_0012",
+          "medId": "ses_med_0009"
+        },
+        {
+          "dow": 7,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0007"
+          ],
+          "sleepRoutineId": "ses_slp_0007"
+        }
+      ]
+    },
+    {
+      "week": 5,
+      "days": [
+        {
+          "dow": 1,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0001"
+          ],
+          "sleepRoutineId": "ses_slp_0001"
+        },
+        {
+          "dow": 2,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0013"
+          ],
+          "breathId": "ses_bre_0001",
+          "medId": "ses_med_0009"
+        },
+        {
+          "dow": 3,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0003"
+          ],
+          "sleepRoutineId": "ses_slp_0003"
+        },
+        {
+          "dow": 4,
+          "carbDayType": "high",
+          "sessionIds": [
+            "ses_mov_0014"
+          ],
+          "breathId": "ses_bre_0002",
+          "medId": "ses_med_0010"
+        },
+        {
+          "dow": 5,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0005"
+          ],
+          "sleepRoutineId": "ses_slp_0005"
+        },
+        {
+          "dow": 6,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0015"
+          ],
+          "breathId": "ses_bre_0003",
+          "medId": "ses_med_0011"
+        },
+        {
+          "dow": 7,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0007"
+          ],
+          "sleepRoutineId": "ses_slp_0007"
+        }
+      ]
+    },
+    {
+      "week": 6,
+      "days": [
+        {
+          "dow": 1,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0001"
+          ],
+          "sleepRoutineId": "ses_slp_0001"
+        },
+        {
+          "dow": 2,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0016"
+          ],
+          "breathId": "ses_bre_0004",
+          "medId": "ses_med_0011"
+        },
+        {
+          "dow": 3,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0003"
+          ],
+          "sleepRoutineId": "ses_slp_0003"
+        },
+        {
+          "dow": 4,
+          "carbDayType": "high",
+          "sessionIds": [
+            "ses_mov_0017"
+          ],
+          "breathId": "ses_bre_0005",
+          "medId": "ses_med_0012"
+        },
+        {
+          "dow": 5,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0005"
+          ],
+          "sleepRoutineId": "ses_slp_0005"
+        },
+        {
+          "dow": 6,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0018"
+          ],
+          "breathId": "ses_bre_0006",
+          "medId": "ses_med_0001"
+        },
+        {
+          "dow": 7,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0007"
+          ],
+          "sleepRoutineId": "ses_slp_0007"
+        }
+      ]
+    },
+    {
+      "week": 7,
+      "days": [
+        {
+          "dow": 1,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0001"
+          ],
+          "sleepRoutineId": "ses_slp_0001"
+        },
+        {
+          "dow": 2,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0019"
+          ],
+          "breathId": "ses_bre_0007",
+          "medId": "ses_med_0001"
+        },
+        {
+          "dow": 3,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0003"
+          ],
+          "sleepRoutineId": "ses_slp_0003"
+        },
+        {
+          "dow": 4,
+          "carbDayType": "high",
+          "sessionIds": [
+            "ses_mov_0020"
+          ],
+          "breathId": "ses_bre_0008",
+          "medId": "ses_med_0002"
+        },
+        {
+          "dow": 5,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0005"
+          ],
+          "sleepRoutineId": "ses_slp_0005"
+        },
+        {
+          "dow": 6,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0021"
+          ],
+          "breathId": "ses_bre_0009",
+          "medId": "ses_med_0003"
+        },
+        {
+          "dow": 7,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0007"
+          ],
+          "sleepRoutineId": "ses_slp_0007"
+        }
+      ]
+    },
+    {
+      "week": 8,
+      "days": [
+        {
+          "dow": 1,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0001"
+          ],
+          "sleepRoutineId": "ses_slp_0001"
+        },
+        {
+          "dow": 2,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0022"
+          ],
+          "breathId": "ses_bre_0010",
+          "medId": "ses_med_0003"
+        },
+        {
+          "dow": 3,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0003"
+          ],
+          "sleepRoutineId": "ses_slp_0003"
+        },
+        {
+          "dow": 4,
+          "carbDayType": "high",
+          "sessionIds": [
+            "ses_mov_0023"
+          ],
+          "breathId": "ses_bre_0011",
+          "medId": "ses_med_0004"
+        },
+        {
+          "dow": 5,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0005"
+          ],
+          "sleepRoutineId": "ses_slp_0005"
+        },
+        {
+          "dow": 6,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0024"
+          ],
+          "breathId": "ses_bre_0012",
+          "medId": "ses_med_0005"
+        },
+        {
+          "dow": 7,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0007"
+          ],
+          "sleepRoutineId": "ses_slp_0007"
+        }
+      ]
+    },
+    {
+      "week": 9,
+      "days": [
+        {
+          "dow": 1,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0001"
+          ],
+          "sleepRoutineId": "ses_slp_0001"
+        },
+        {
+          "dow": 2,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0025"
+          ],
+          "breathId": "ses_bre_0001",
+          "medId": "ses_med_0005"
+        },
+        {
+          "dow": 3,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0003"
+          ],
+          "sleepRoutineId": "ses_slp_0003"
+        },
+        {
+          "dow": 4,
+          "carbDayType": "high",
+          "sessionIds": [
+            "ses_mov_0026"
+          ],
+          "breathId": "ses_bre_0002",
+          "medId": "ses_med_0006"
+        },
+        {
+          "dow": 5,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0005"
+          ],
+          "sleepRoutineId": "ses_slp_0005"
+        },
+        {
+          "dow": 6,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0027"
+          ],
+          "breathId": "ses_bre_0003",
+          "medId": "ses_med_0007"
+        },
+        {
+          "dow": 7,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0007"
+          ],
+          "sleepRoutineId": "ses_slp_0007"
+        }
+      ]
+    },
+    {
+      "week": 10,
+      "days": [
+        {
+          "dow": 1,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0001"
+          ],
+          "sleepRoutineId": "ses_slp_0001"
+        },
+        {
+          "dow": 2,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0028"
+          ],
+          "breathId": "ses_bre_0004",
+          "medId": "ses_med_0007"
+        },
+        {
+          "dow": 3,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0003"
+          ],
+          "sleepRoutineId": "ses_slp_0003"
+        },
+        {
+          "dow": 4,
+          "carbDayType": "high",
+          "sessionIds": [
+            "ses_mov_0029"
+          ],
+          "breathId": "ses_bre_0005",
+          "medId": "ses_med_0008"
+        },
+        {
+          "dow": 5,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0005"
+          ],
+          "sleepRoutineId": "ses_slp_0005"
+        },
+        {
+          "dow": 6,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0030"
+          ],
+          "breathId": "ses_bre_0006",
+          "medId": "ses_med_0009"
+        },
+        {
+          "dow": 7,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0007"
+          ],
+          "sleepRoutineId": "ses_slp_0007"
+        }
+      ]
+    },
+    {
+      "week": 11,
+      "days": [
+        {
+          "dow": 1,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0001"
+          ],
+          "sleepRoutineId": "ses_slp_0001"
+        },
+        {
+          "dow": 2,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0001"
+          ],
+          "breathId": "ses_bre_0007",
+          "medId": "ses_med_0009"
+        },
+        {
+          "dow": 3,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0003"
+          ],
+          "sleepRoutineId": "ses_slp_0003"
+        },
+        {
+          "dow": 4,
+          "carbDayType": "high",
+          "sessionIds": [
+            "ses_mov_0002"
+          ],
+          "breathId": "ses_bre_0008",
+          "medId": "ses_med_0010"
+        },
+        {
+          "dow": 5,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0005"
+          ],
+          "sleepRoutineId": "ses_slp_0005"
+        },
+        {
+          "dow": 6,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0003"
+          ],
+          "breathId": "ses_bre_0009",
+          "medId": "ses_med_0011"
+        },
+        {
+          "dow": 7,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0007"
+          ],
+          "sleepRoutineId": "ses_slp_0007"
+        }
+      ]
+    },
+    {
+      "week": 12,
+      "days": [
+        {
+          "dow": 1,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0001"
+          ],
+          "sleepRoutineId": "ses_slp_0001"
+        },
+        {
+          "dow": 2,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0004"
+          ],
+          "breathId": "ses_bre_0010",
+          "medId": "ses_med_0011"
+        },
+        {
+          "dow": 3,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0003"
+          ],
+          "sleepRoutineId": "ses_slp_0003"
+        },
+        {
+          "dow": 4,
+          "carbDayType": "high",
+          "sessionIds": [
+            "ses_mov_0005"
+          ],
+          "breathId": "ses_bre_0011",
+          "medId": "ses_med_0012"
+        },
+        {
+          "dow": 5,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0005"
+          ],
+          "sleepRoutineId": "ses_slp_0005"
+        },
+        {
+          "dow": 6,
+          "carbDayType": "moderate",
+          "sessionIds": [
+            "ses_mov_0006"
+          ],
+          "breathId": "ses_bre_0012",
+          "medId": "ses_med_0001"
+        },
+        {
+          "dow": 7,
+          "carbDayType": "low",
+          "sessionIds": [
+            "ses_mov_0007"
+          ],
+          "sleepRoutineId": "ses_slp_0007"
+        }
+      ]
+    }
+  ],
+  "progressionRules": {
+    "increaseIf": [
+      "energy.avg_7d >= 6",
+      "sleep.qualityAvg_7d >= 6",
+      "pain.scoreAvg_7d <= 3",
+      "stress.avg_7d <= 6"
+    ],
+    "deloadIf": [
+      "sleep.durationAvgMin_5d < 360",
+      "stress.avg_5d >= 8",
+      "energy.avg_5d <= 4",
+      "libido.enabled && libido.avg_7d <= 4"
+    ]
+  },
+  "media": {
+    "coverImageId": "img_bg_dashboard_orange",
+    "audioIntroId": "aud_voice_nordic_0001"
+  }
+}

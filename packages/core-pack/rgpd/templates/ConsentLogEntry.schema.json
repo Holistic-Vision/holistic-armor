@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "ConsentLogEntry",
+  "type": "object",
+  "required": [
+    "userId",
+    "event",
+    "version",
+    "timestamp",
+    "ipHash"
+  ],
+  "properties": {
+    "userId": {
+      "type": "string"
+    },
+    "event": {
+      "type": "string",
+      "enum": [
+        "termsAccepted",
+        "privacyAccepted",
+        "healthDisclaimerAccepted",
+        "marketingOptInChanged"
+      ]
+    },
+    "version": {
+      "type": "string"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "ipHash": {
+      "type": "string"
+    },
+    "userAgentHash": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object"
+    }
+  },
+  "additionalProperties": false
+}

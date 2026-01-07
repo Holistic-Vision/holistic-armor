@@ -1,0 +1,67 @@
+{
+  "userId": "usr_demo_0001",
+  "createdAt": "2026-01-06T10:00:00+01:00",
+  "timezone": "Europe/Paris",
+  "demographics": {
+    "age": 35,
+    "sex": "male"
+  },
+  "medical": {
+    "movementLimitations": [
+      "genoux sensible"
+    ],
+    "allergies": [
+      "arachide"
+    ],
+    "dietaryPreferences": [
+      "diet_omnivore"
+    ],
+    "redFlagsAcknowledged": true
+  },
+  "preferences": {
+    "theme": {
+      "accent": "orange",
+      "mode": "dark"
+    },
+    "language": "fr",
+    "units": {
+      "weight": "kg",
+      "height": "cm"
+    },
+    "notificationMode": "standard",
+    "workSchedule": {
+      "type": "night",
+      "notes": "22h30-5h00"
+    },
+    "symbolicLenses": [
+      "west",
+      "nordic_symbolic",
+      "stoic"
+    ],
+    "media": {
+      "audioEnabled": true,
+      "videoEnabled": true,
+      "voiceStyle": "neutral"
+    }
+  },
+  "consents": {
+    "termsAccepted": {
+      "accepted": true,
+      "acceptedAt": "2026-01-06T10:01:00+01:00",
+      "version": "1.0"
+    },
+    "privacyAccepted": {
+      "accepted": true,
+      "acceptedAt": "2026-01-06T10:01:10+01:00",
+      "version": "1.0"
+    },
+    "healthDisclaimerAccepted": {
+      "accepted": true,
+      "acceptedAt": "2026-01-06T10:01:20+01:00",
+      "version": "1.0"
+    },
+    "marketingOptIn": {
+      "accepted": false
+    }
+  }
+}

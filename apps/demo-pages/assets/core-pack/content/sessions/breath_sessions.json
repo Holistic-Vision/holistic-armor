@@ -1,0 +1,388 @@
+{
+  "sessions": [
+    {
+      "id": "ses_bre_0001",
+      "module": "breath",
+      "title": "Calme 4-6 (5 min)",
+      "durationSec": 300,
+      "level": "beginner",
+      "focus": [
+        "support_stress_down",
+        "support_sleep",
+        "time_5min"
+      ],
+      "steps": [
+        {
+          "type": "setup",
+          "name": "Assis ou allongé, relâché",
+          "durationSec": 20
+        },
+        {
+          "type": "breath",
+          "name": "Suivre la guidance",
+          "durationSec": 260
+        },
+        {
+          "type": "outro",
+          "name": "Pause silencieuse",
+          "durationSec": 20
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_blue",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_bre_0002",
+      "module": "breath",
+      "title": "Réveil énergétique (5 min)",
+      "durationSec": 300,
+      "level": "beginner",
+      "focus": [
+        "support_energy",
+        "time_5min"
+      ],
+      "steps": [
+        {
+          "type": "setup",
+          "name": "Assis ou allongé, relâché",
+          "durationSec": 20
+        },
+        {
+          "type": "breath",
+          "name": "Suivre la guidance",
+          "durationSec": 260
+        },
+        {
+          "type": "outro",
+          "name": "Pause silencieuse",
+          "durationSec": 20
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_blue",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_bre_0003",
+      "module": "breath",
+      "title": "Focus 5-5 (5 min)",
+      "durationSec": 300,
+      "level": "beginner",
+      "focus": [
+        "goal_focus",
+        "support_stress_down",
+        "time_5min"
+      ],
+      "steps": [
+        {
+          "type": "setup",
+          "name": "Assis ou allongé, relâché",
+          "durationSec": 20
+        },
+        {
+          "type": "breath",
+          "name": "Suivre la guidance",
+          "durationSec": 260
+        },
+        {
+          "type": "outro",
+          "name": "Pause silencieuse",
+          "durationSec": 20
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_blue",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_bre_0004",
+      "module": "breath",
+      "title": "Décharge rapide (2 min)",
+      "durationSec": 120,
+      "level": "beginner",
+      "focus": [
+        "support_stress_down"
+      ],
+      "steps": [
+        {
+          "type": "setup",
+          "name": "Assis ou allongé, relâché",
+          "durationSec": 20
+        },
+        {
+          "type": "breath",
+          "name": "Suivre la guidance",
+          "durationSec": 80
+        },
+        {
+          "type": "outro",
+          "name": "Pause silencieuse",
+          "durationSec": 20
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_blue",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_bre_0005",
+      "module": "breath",
+      "title": "Sommeil 4-6 (10 min)",
+      "durationSec": 600,
+      "level": "beginner",
+      "focus": [
+        "support_sleep",
+        "time_10min"
+      ],
+      "steps": [
+        {
+          "type": "setup",
+          "name": "Assis ou allongé, relâché",
+          "durationSec": 20
+        },
+        {
+          "type": "breath",
+          "name": "Suivre la guidance",
+          "durationSec": 560
+        },
+        {
+          "type": "outro",
+          "name": "Pause silencieuse",
+          "durationSec": 20
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_blue",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_bre_0006",
+      "module": "breath",
+      "title": "Après-stress (5 min)",
+      "durationSec": 300,
+      "level": "beginner",
+      "focus": [
+        "support_recovery",
+        "support_stress_down",
+        "time_5min"
+      ],
+      "steps": [
+        {
+          "type": "setup",
+          "name": "Assis ou allongé, relâché",
+          "durationSec": 20
+        },
+        {
+          "type": "breath",
+          "name": "Suivre la guidance",
+          "durationSec": 260
+        },
+        {
+          "type": "outro",
+          "name": "Pause silencieuse",
+          "durationSec": 20
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_blue",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_bre_0007",
+      "module": "breath",
+      "title": "Cohérence cardiaque (5 min)",
+      "durationSec": 300,
+      "level": "beginner",
+      "focus": [
+        "support_stress_down",
+        "time_5min"
+      ],
+      "steps": [
+        {
+          "type": "setup",
+          "name": "Assis ou allongé, relâché",
+          "durationSec": 20
+        },
+        {
+          "type": "breath",
+          "name": "Suivre la guidance",
+          "durationSec": 260
+        },
+        {
+          "type": "outro",
+          "name": "Pause silencieuse",
+          "durationSec": 20
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_blue",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_bre_0008",
+      "module": "breath",
+      "title": "Calme express (3 min)",
+      "durationSec": 180,
+      "level": "beginner",
+      "focus": [
+        "support_stress_down"
+      ],
+      "steps": [
+        {
+          "type": "setup",
+          "name": "Assis ou allongé, relâché",
+          "durationSec": 20
+        },
+        {
+          "type": "breath",
+          "name": "Suivre la guidance",
+          "durationSec": 140
+        },
+        {
+          "type": "outro",
+          "name": "Pause silencieuse",
+          "durationSec": 20
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_blue",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_bre_0009",
+      "module": "breath",
+      "title": "Énergie douce (3 min)",
+      "durationSec": 180,
+      "level": "beginner",
+      "focus": [
+        "support_energy"
+      ],
+      "steps": [
+        {
+          "type": "setup",
+          "name": "Assis ou allongé, relâché",
+          "durationSec": 20
+        },
+        {
+          "type": "breath",
+          "name": "Suivre la guidance",
+          "durationSec": 140
+        },
+        {
+          "type": "outro",
+          "name": "Pause silencieuse",
+          "durationSec": 20
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_blue",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_bre_0010",
+      "module": "breath",
+      "title": "Pause décision (2 min)",
+      "durationSec": 120,
+      "level": "beginner",
+      "focus": [
+        "goal_focus"
+      ],
+      "steps": [
+        {
+          "type": "setup",
+          "name": "Assis ou allongé, relâché",
+          "durationSec": 20
+        },
+        {
+          "type": "breath",
+          "name": "Suivre la guidance",
+          "durationSec": 80
+        },
+        {
+          "type": "outro",
+          "name": "Pause silencieuse",
+          "durationSec": 20
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_blue",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_bre_0011",
+      "module": "breath",
+      "title": "Baisse tension (5 min)",
+      "durationSec": 300,
+      "level": "beginner",
+      "focus": [
+        "support_sleep",
+        "support_stress_down",
+        "time_5min"
+      ],
+      "steps": [
+        {
+          "type": "setup",
+          "name": "Assis ou allongé, relâché",
+          "durationSec": 20
+        },
+        {
+          "type": "breath",
+          "name": "Suivre la guidance",
+          "durationSec": 260
+        },
+        {
+          "type": "outro",
+          "name": "Pause silencieuse",
+          "durationSec": 20
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_blue",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    },
+    {
+      "id": "ses_bre_0012",
+      "module": "breath",
+      "title": "Respiration longue (7 min)",
+      "durationSec": 420,
+      "level": "beginner",
+      "focus": [
+        "support_sleep",
+        "time_10min"
+      ],
+      "steps": [
+        {
+          "type": "setup",
+          "name": "Assis ou allongé, relâché",
+          "durationSec": 20
+        },
+        {
+          "type": "breath",
+          "name": "Suivre la guidance",
+          "durationSec": 380
+        },
+        {
+          "type": "outro",
+          "name": "Pause silencieuse",
+          "durationSec": 20
+        }
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_blue",
+        "audioGuideId": "aud_voice_neutral_0002"
+      }
+    }
+  ]
+}

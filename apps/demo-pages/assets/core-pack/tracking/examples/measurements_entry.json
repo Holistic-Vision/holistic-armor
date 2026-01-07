@@ -1,0 +1,23 @@
+{
+  "userId": "usr_demo_0001",
+  "date": "2026-01-06",
+  "body": {
+    "weightKg": 92.4,
+    "waistCm": 101.0,
+    "hipsCm": 104.0,
+    "chestCm": 108.0
+  },
+  "photos": [
+    {
+      "uri": "local://photos/2026-01-06_front.jpg",
+      "createdAt": "2026-01-06T13:00:00+01:00",
+      "pose": "front",
+      "notes": "lumière naturelle"
+    },
+    {
+      "uri": "local://photos/2026-01-06_side.jpg",
+      "createdAt": "2026-01-06T13:01:00+01:00",
+      "pose": "side"
+    }
+  ]
+}

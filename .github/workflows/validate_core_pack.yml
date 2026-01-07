@@ -1,0 +1,23 @@
+name: Validate core-pack JSON
+on:
+  push:
+    paths:
+      - 'packages/core-pack/**'
+  pull_request:
+    paths:
+      - 'packages/core-pack/**'
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Basic JSON parse
+        run: |
+          python - << 'PY'
+          import json, glob
+          files = glob.glob('packages/core-pack/**/*.json', recursive=True)
+          for f in files:
+            with open(f,'r',encoding='utf-8') as fp:
+              json.load(fp)
+          print("OK:", len(files), "json files parsed")
+          PY
