@@ -88,7 +88,7 @@ export function requirePro(featureName) {
 
 export function paypalSupportLink() {
   // Replace with your real PayPal.me or hosted button URL
-  return 'https://www.paypal.me/holisticvision';
+  return 'https://www.paypal.me/TONLIEN';
 }
 
 export function renderBillingPanel(container) {
