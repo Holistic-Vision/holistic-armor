@@ -1,0 +1,160 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Holistic Armor User Profile",
+  "type": "object",
+  "properties": {
+    "firstName": {
+      "type": "string"
+    },
+    "birthDate": {
+      "type": "string",
+      "description": "YYYY-MM-DD"
+    },
+    "sex": {
+      "type": "string",
+      "enum": [
+        "unspecified",
+        "male",
+        "female",
+        "intersex"
+      ]
+    },
+    "heightCm": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "weightKg": {
+      "type": [
+        "number",
+        "string"
+      ]
+    },
+    "activity": {
+      "type": "string",
+      "enum": [
+        "low",
+        "moderate",
+        "high"
+      ]
+    },
+    "goals": {
+      "type": "object",
+      "properties": {
+        "primary": {
+          "type": "string",
+          "enum": [
+            "cut",
+            "maintenance",
+            "gain",
+            "sleep",
+            "mobility",
+            "strength",
+            "stress"
+          ]
+        },
+        "secondary": {
+          "type": "string",
+          "enum": [
+            "cut",
+            "maintenance",
+            "gain",
+            "sleep",
+            "mobility",
+            "strength",
+            "stress"
+          ]
+        }
+      }
+    },
+    "lifeStage": {
+      "type": "string",
+      "enum": [
+        "none",
+        "adolescent",
+        "adult",
+        "senior",
+        "pregnancy",
+        "postpartum",
+        "menstruation",
+        "perimenopause",
+        "menopause",
+        "andropause"
+      ]
+    },
+    "constraints": {
+      "type": "string"
+    },
+    "diet": {
+      "type": "string",
+      "enum": [
+        "omnivore",
+        "vegetarian",
+        "vegan",
+        "halal",
+        "kosher",
+        "no_pork",
+        "pescatarian"
+      ]
+    },
+    "allergies": {
+      "type": "string"
+    },
+    "mealsPerDay": {
+      "type": "integer",
+      "minimum": 2,
+      "maximum": 5
+    },
+    "timezone": {
+      "type": "string"
+    },
+    "preferences": {
+      "type": "object",
+      "properties": {
+        "theme": {
+          "type": "string",
+          "enum": [
+            "armor_vision",
+            "holistic_studio",
+            "minimal_dark",
+            "minimal_light"
+          ]
+        },
+        "density": {
+          "type": "string",
+          "enum": [
+            "comfortable",
+            "compact"
+          ]
+        },
+        "sounds": {
+          "type": "boolean"
+        },
+        "vibration": {
+          "type": "boolean"
+        },
+        "timerFullScreen": {
+          "type": "boolean"
+        }
+      }
+    },
+    "api": {
+      "type": "object",
+      "properties": {
+        "enabled": {
+          "type": "boolean"
+        },
+        "endpoint": {
+          "type": "string"
+        },
+        "headerName": {
+          "type": "string"
+        },
+        "apiKey": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

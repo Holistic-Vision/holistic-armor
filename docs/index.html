@@ -1,1 +1,58 @@
-<!-- Holistic Armor V1.1 -->
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+  <title>Holistic Armor™</title>
+  <meta name="theme-color" content="#0b0f14"/>
+  <link rel="manifest" href="./manifest.json"/>
+  <link rel="stylesheet" href="./app.css"/>
+</head>
+<body>
+  <div id="app" class="app">
+    <aside class="sidebar" id="sidebar">
+      <div class="brand">
+        <div class="brand-title">Holistic Armor</div>
+        <div class="brand-sub">Local-first • Non médical</div>
+      </div>
+      <nav class="nav" id="nav">
+        <button class="nav-item active" data-route="dashboard">Tableau de bord</button>
+        <button class="nav-item" data-route="today">Aujourd’hui</button>
+        <button class="nav-item" data-route="sessions">Séances</button>
+        <button class="nav-item" data-route="nutrition">Nutrition</button>
+        <button class="nav-item" data-route="journal">Journal</button>
+        <button class="nav-item" data-route="charts">Courbes</button>
+        <button class="nav-item" data-route="chat">Chat</button>
+        <button class="nav-item" data-route="settings">Paramètres</button>
+        <button class="nav-item" data-route="billing">Soutenir / Pro</button>
+        <button class="nav-item" data-route="privacy">RGPD & sécurité</button>
+      </nav>
+      <div class="sidebar-foot">
+        <div class="pill" id="planBadge">Plan: Free</div>
+        <div class="muted small">Aucune donnée envoyée par défaut.</div>
+      </div>
+    </aside>
+
+    <main class="main">
+      <header class="topbar">
+        <button id="burger" class="icon-btn" aria-label="Menu">☰</button>
+        <div id="quote" class="quote">…</div>
+        <button id="themeBtn" class="icon-btn" title="Thème">◐</button>
+      </header>
+      <section class="content"><div id="view"></div></section>
+    </main>
+  </div>
+
+  <dialog id="modal" class="modal">
+    <div class="modal-card">
+      <div class="modal-head">
+        <div id="modalTitle" class="modal-title">Détail</div>
+        <button id="modalClose" class="icon-btn" aria-label="Fermer">✕</button>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </dialog>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>

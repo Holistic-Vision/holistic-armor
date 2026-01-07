@@ -1,0 +1,123 @@
+{
+  "fallback": [
+    "Je peux t'aider avec une action simple aujourd'hui : sommeil, nutrition, séance, ou check-in. Tu veux quoi ?",
+    "Dis-moi ton objectif (perte de graisse / force / mobilité), ton temps dispo, et ton énergie/stress/douleur (1–10).",
+    "Je n'ai pas assez de contexte. Tu préfères : plan du jour, séance rapide, ou ajustement nutrition ?"
+  ],
+  "intents": [
+    {
+      "id": "goal",
+      "title": "Définir l'objectif",
+      "keywords": [
+        "objectif",
+        "but",
+        "je veux",
+        "perdre",
+        "sèche",
+        "prise",
+        "forcer",
+        "muscle",
+        "mobilité",
+        "recomposition"
+      ],
+      "responses": [
+        "OK. Objectif principal ? (perte de graisse, recomposition, prise de muscle, mobilité, santé). Donne aussi ton temps dispo aujourd'hui.",
+        "Je peux te proposer un plan du jour. Tu vises plutôt : graisse, force, mobilité, ou récupération ?",
+        "Pour personnaliser : objectif + contrainte (douleur/blessure) + sommeil (heures) + stress (1–10)."
+      ]
+    },
+    {
+      "id": "checkin",
+      "title": "Check-in",
+      "keywords": [
+        "check",
+        "check-in",
+        "aujourd",
+        "fatigue",
+        "stress",
+        "douleur",
+        "énergie",
+        "humeur"
+      ],
+      "responses": [
+        "Check-in rapide : énergie (1–10), stress (1–10), douleur (1–10), sommeil (heures) ?",
+        "Donne 3 chiffres (énergie/stress/douleur 1–10) et ton temps dispo aujourd'hui.",
+        "Tu veux un jour 'léger', 'modéré' ou 'intense' ? (et indique douleur éventuelle)"
+      ]
+    },
+    {
+      "id": "nutrition",
+      "title": "Nutrition",
+      "keywords": [
+        "nutrition",
+        "manger",
+        "repas",
+        "kcal",
+        "calorie",
+        "protéine",
+        "glucide",
+        "lipide",
+        "menu",
+        "courses"
+      ],
+      "responses": [
+        "Nutrition : tu veux un plan 'modéré', 'déficit' ou 'maintien' ? Allergies/à éviter ?",
+        "Je peux générer tes repas du jour. Indique : poids, taille, activité (faible/modérée/élevée) et préférence (omnivore/végé).",
+        "Pour une suggestion précise : heure actuelle + prochain repas + faim (1–10)."
+      ]
+    },
+    {
+      "id": "training",
+      "title": "Séance",
+      "keywords": [
+        "séance",
+        "entrain",
+        "entraînement",
+        "sport",
+        "muscu",
+        "yoga",
+        "mobilité",
+        "cardio",
+        "hiit"
+      ],
+      "responses": [
+        "Séance : combien de minutes aujourd'hui ? (10/20/30/45) et douleur/blessure ?",
+        "Tu préfères : mobilité, renfo, cardio doux, ou récupération active ?",
+        "Je te propose une séance adaptée. Dis : niveau (débutant/intermédiaire) + matériel (aucun/élastique/poids)."
+      ]
+    },
+    {
+      "id": "sleep",
+      "title": "Sommeil",
+      "keywords": [
+        "sommeil",
+        "dorm",
+        "insomnie",
+        "fatigué",
+        "récup",
+        "récupération"
+      ],
+      "responses": [
+        "Sommeil : heure coucher/lever, et combien de réveils ? Je te donne 1 action simple pour ce soir.",
+        "Pour améliorer la récup : 10 minutes de routine. Tu veux respiration, étirement, ou déconnexion écran ?",
+        "Dis-moi ton niveau de fatigue (1–10) et si tu travailles de nuit ou de jour."
+      ]
+    },
+    {
+      "id": "export",
+      "title": "Export",
+      "keywords": [
+        "export",
+        "csv",
+        "pdf",
+        "sauveg",
+        "backup"
+      ],
+      "responses": [
+        "Export est en Pro. Tu peux déjà copier/coller ton journal et je te structure un format.",
+        "Pour garder une trace : utilise le Journal + Courbes. Export complet = Pro.",
+        "Si tu veux, je te guide pour faire une sauvegarde locale (fichier JSON) en Pro."
+      ]
+    }
+  ]
+}
