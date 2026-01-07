@@ -1,0 +1,39 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "NutritionDayTemplate",
+  "type": "object",
+  "required": [
+    "id",
+    "carbDayType",
+    "targets",
+    "meals"
+  ],
+  "properties": {
+    "id": {
+      "type": "string"
+    },
+    "carbDayType": {
+      "type": "string",
+      "enum": [
+        "low",
+        "moderate",
+        "high"
+      ]
+    },
+    "targets": {
+      "type": "object"
+    },
+    "meals": {
+      "type": "array",
+      "items": {
+        "type": "object"
+      }
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

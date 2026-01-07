@@ -1,0 +1,1513 @@
+{
+  "sessions": [
+    {
+      "id": "ses_mov_0001",
+      "module": "movement",
+      "title": "Déverrouillage matin (10 min)",
+      "durationSec": 600,
+      "level": "beginner",
+      "focus": [
+        "mov_mobility",
+        "support_energy",
+        "time_10min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Mobilité nuque/épaules",
+          "durationSec": 120
+        },
+        {
+          "type": "work",
+          "name": "Mobilité colonne (debout)",
+          "durationSec": 150
+        },
+        {
+          "type": "cooldown",
+          "name": "Respiration 4-6",
+          "durationSec": 330
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0001_s",
+        "easierVariantId": "ses_mov_0001_e",
+        "noImpactVariantId": "ses_mov_0001_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0002",
+      "module": "movement",
+      "title": "Mobilité hanches & dos (20 min)",
+      "durationSec": 1200,
+      "level": "beginner",
+      "focus": [
+        "mov_mobility",
+        "support_stress_down",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Chat-vache",
+          "durationSec": 180
+        },
+        {
+          "type": "work",
+          "name": "Rotations thoraciques",
+          "durationSec": 180
+        },
+        {
+          "type": "work",
+          "name": "90/90 hanches (doux)",
+          "durationSec": 180
+        },
+        {
+          "type": "cooldown",
+          "name": "Respiration allongée",
+          "durationSec": 180
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0002_s",
+        "easierVariantId": "ses_mov_0002_e",
+        "noImpactVariantId": "ses_mov_0002_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0003",
+      "module": "movement",
+      "title": "Renfo bas du corps (20 min)",
+      "durationSec": 1200,
+      "level": "beginner",
+      "focus": [
+        "mov_strength",
+        "support_recovery",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Squat assisté",
+          "sets": 3,
+          "reps": 10,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Pont fessier",
+          "sets": 3,
+          "reps": 12,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Gainage",
+          "sets": 2,
+          "durationSec": 30,
+          "restSec": 60
+        },
+        {
+          "type": "cooldown",
+          "name": "Étirement doux",
+          "durationSec": 180
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0003_s",
+        "easierVariantId": "ses_mov_0003_e",
+        "noImpactVariantId": "ses_mov_0003_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0004",
+      "module": "movement",
+      "title": "Renfo haut du corps (20 min)",
+      "durationSec": 1200,
+      "level": "beginner",
+      "focus": [
+        "mov_strength",
+        "support_energy",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Pompes murales / genoux",
+          "sets": 3,
+          "reps": 10,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Row serviette (isométrique)",
+          "sets": 3,
+          "durationSec": 25,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Planche",
+          "sets": 2,
+          "durationSec": 35,
+          "restSec": 60
+        },
+        {
+          "type": "cooldown",
+          "name": "Ouverture thoracique",
+          "durationSec": 180
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0004_s",
+        "easierVariantId": "ses_mov_0004_e",
+        "noImpactVariantId": "ses_mov_0004_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0005",
+      "module": "movement",
+      "title": "Core & posture (20 min)",
+      "durationSec": 1200,
+      "level": "intermediate",
+      "focus": [
+        "mov_strength",
+        "goal_focus",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Dead bug",
+          "sets": 3,
+          "reps": 10,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Side plank genoux",
+          "sets": 2,
+          "durationSec": 25,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Bird-dog",
+          "sets": 2,
+          "reps": 10,
+          "restSec": 45
+        },
+        {
+          "type": "cooldown",
+          "name": "Étirement dorsal",
+          "durationSec": 120
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0005_s",
+        "easierVariantId": "ses_mov_0005_e",
+        "noImpactVariantId": "ses_mov_0005_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0006",
+      "module": "movement",
+      "title": "Yoga soleil A (doux) (20 min)",
+      "durationSec": 1200,
+      "level": "beginner",
+      "focus": [
+        "mov_yoga",
+        "support_stress_down",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "warmup",
+          "name": "Respiration nasale",
+          "durationSec": 60
+        },
+        {
+          "type": "work",
+          "name": "Salutation au soleil A (lent)",
+          "rounds": 6,
+          "restSec": 20
+        },
+        {
+          "type": "cooldown",
+          "name": "Posture de l’enfant",
+          "durationSec": 180
+        },
+        {
+          "type": "cooldown",
+          "name": "Torsion douce au sol",
+          "durationSec": 120
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0006_s",
+        "easierVariantId": "ses_mov_0006_e",
+        "noImpactVariantId": "ses_mov_0006_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_orange",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0007",
+      "module": "movement",
+      "title": "Récupération active (10 min)",
+      "durationSec": 600,
+      "level": "beginner",
+      "focus": [
+        "mov_recovery",
+        "support_sleep",
+        "time_10min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Marche sur place très douce",
+          "durationSec": 120
+        },
+        {
+          "type": "work",
+          "name": "Mobilité chevilles",
+          "durationSec": 90
+        },
+        {
+          "type": "work",
+          "name": "Mobilité hanches",
+          "durationSec": 90
+        },
+        {
+          "type": "cooldown",
+          "name": "Respiration 4-6",
+          "durationSec": 120
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0007_s",
+        "easierVariantId": "ses_mov_0007_e",
+        "noImpactVariantId": "ses_mov_0007_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0008",
+      "module": "movement",
+      "title": "Circuit full body doux (30 min)",
+      "durationSec": 1800,
+      "level": "intermediate",
+      "focus": [
+        "mov_strength",
+        "support_energy",
+        "time_30min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Circuit",
+          "rounds": 3,
+          "items": [
+            {
+              "name": "Squat",
+              "reps": 12
+            },
+            {
+              "name": "Pompes genoux",
+              "reps": 10
+            },
+            {
+              "name": "Pont fessier",
+              "reps": 12
+            },
+            {
+              "name": "Gainage",
+              "durationSec": 30
+            }
+          ],
+          "restSec": 60
+        },
+        {
+          "type": "cooldown",
+          "name": "Étirements doux",
+          "durationSec": 240
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0008_s",
+        "easierVariantId": "ses_mov_0008_e",
+        "noImpactVariantId": "ses_mov_0008_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0009",
+      "module": "movement",
+      "title": "Mobilité épaules & nuque (10 min)",
+      "durationSec": 600,
+      "level": "beginner",
+      "focus": [
+        "mov_mobility",
+        "support_stress_down",
+        "time_10min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Mobilité nuque/épaules",
+          "durationSec": 120
+        },
+        {
+          "type": "work",
+          "name": "Mobilité colonne (debout)",
+          "durationSec": 150
+        },
+        {
+          "type": "cooldown",
+          "name": "Respiration 4-6",
+          "durationSec": 330
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0009_s",
+        "easierVariantId": "ses_mov_0009_e",
+        "noImpactVariantId": "ses_mov_0009_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0010",
+      "module": "movement",
+      "title": "Ancrage & respiration active (10 min)",
+      "durationSec": 600,
+      "level": "beginner",
+      "focus": [
+        "mov_breath_active",
+        "support_energy",
+        "time_10min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Respiration diaphragmatique debout",
+          "durationSec": 180
+        },
+        {
+          "type": "work",
+          "name": "Cohérence 5-5",
+          "durationSec": 240
+        },
+        {
+          "type": "cooldown",
+          "name": "Ancrage debout",
+          "durationSec": 180
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0010_s",
+        "easierVariantId": "ses_mov_0010_e",
+        "noImpactVariantId": "ses_mov_0010_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0011",
+      "module": "movement",
+      "title": "Déverrouillage matin (10 min)",
+      "durationSec": 600,
+      "level": "beginner",
+      "focus": [
+        "mov_mobility",
+        "support_energy",
+        "time_10min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Mobilité nuque/épaules",
+          "durationSec": 120
+        },
+        {
+          "type": "work",
+          "name": "Mobilité colonne (debout)",
+          "durationSec": 150
+        },
+        {
+          "type": "cooldown",
+          "name": "Respiration 4-6",
+          "durationSec": 330
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0011_s",
+        "easierVariantId": "ses_mov_0011_e",
+        "noImpactVariantId": "ses_mov_0011_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0012",
+      "module": "movement",
+      "title": "Mobilité hanches & dos (20 min)",
+      "durationSec": 1200,
+      "level": "beginner",
+      "focus": [
+        "mov_mobility",
+        "support_stress_down",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Chat-vache",
+          "durationSec": 180
+        },
+        {
+          "type": "work",
+          "name": "Rotations thoraciques",
+          "durationSec": 180
+        },
+        {
+          "type": "work",
+          "name": "90/90 hanches (doux)",
+          "durationSec": 180
+        },
+        {
+          "type": "cooldown",
+          "name": "Respiration allongée",
+          "durationSec": 180
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0012_s",
+        "easierVariantId": "ses_mov_0012_e",
+        "noImpactVariantId": "ses_mov_0012_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0013",
+      "module": "movement",
+      "title": "Renfo bas du corps (20 min)",
+      "durationSec": 1200,
+      "level": "beginner",
+      "focus": [
+        "mov_strength",
+        "support_recovery",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Squat assisté",
+          "sets": 3,
+          "reps": 10,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Pont fessier",
+          "sets": 3,
+          "reps": 12,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Gainage",
+          "sets": 2,
+          "durationSec": 30,
+          "restSec": 60
+        },
+        {
+          "type": "cooldown",
+          "name": "Étirement doux",
+          "durationSec": 180
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0013_s",
+        "easierVariantId": "ses_mov_0013_e",
+        "noImpactVariantId": "ses_mov_0013_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0014",
+      "module": "movement",
+      "title": "Renfo haut du corps (20 min)",
+      "durationSec": 1200,
+      "level": "beginner",
+      "focus": [
+        "mov_strength",
+        "support_energy",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Pompes murales / genoux",
+          "sets": 3,
+          "reps": 10,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Row serviette (isométrique)",
+          "sets": 3,
+          "durationSec": 25,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Planche",
+          "sets": 2,
+          "durationSec": 35,
+          "restSec": 60
+        },
+        {
+          "type": "cooldown",
+          "name": "Ouverture thoracique",
+          "durationSec": 180
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0014_s",
+        "easierVariantId": "ses_mov_0014_e",
+        "noImpactVariantId": "ses_mov_0014_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0015",
+      "module": "movement",
+      "title": "Core & posture (20 min)",
+      "durationSec": 1200,
+      "level": "intermediate",
+      "focus": [
+        "mov_strength",
+        "goal_focus",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Dead bug",
+          "sets": 3,
+          "reps": 10,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Side plank genoux",
+          "sets": 2,
+          "durationSec": 25,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Bird-dog",
+          "sets": 2,
+          "reps": 10,
+          "restSec": 45
+        },
+        {
+          "type": "cooldown",
+          "name": "Étirement dorsal",
+          "durationSec": 120
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0015_s",
+        "easierVariantId": "ses_mov_0015_e",
+        "noImpactVariantId": "ses_mov_0015_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0016",
+      "module": "movement",
+      "title": "Yoga soleil A (doux) (20 min)",
+      "durationSec": 1200,
+      "level": "beginner",
+      "focus": [
+        "mov_yoga",
+        "support_stress_down",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "warmup",
+          "name": "Respiration nasale",
+          "durationSec": 60
+        },
+        {
+          "type": "work",
+          "name": "Salutation au soleil A (lent)",
+          "rounds": 6,
+          "restSec": 20
+        },
+        {
+          "type": "cooldown",
+          "name": "Posture de l’enfant",
+          "durationSec": 180
+        },
+        {
+          "type": "cooldown",
+          "name": "Torsion douce au sol",
+          "durationSec": 120
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0016_s",
+        "easierVariantId": "ses_mov_0016_e",
+        "noImpactVariantId": "ses_mov_0016_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_orange",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0017",
+      "module": "movement",
+      "title": "Récupération active (10 min)",
+      "durationSec": 600,
+      "level": "beginner",
+      "focus": [
+        "mov_recovery",
+        "support_sleep",
+        "time_10min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Marche sur place très douce",
+          "durationSec": 120
+        },
+        {
+          "type": "work",
+          "name": "Mobilité chevilles",
+          "durationSec": 90
+        },
+        {
+          "type": "work",
+          "name": "Mobilité hanches",
+          "durationSec": 90
+        },
+        {
+          "type": "cooldown",
+          "name": "Respiration 4-6",
+          "durationSec": 120
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0017_s",
+        "easierVariantId": "ses_mov_0017_e",
+        "noImpactVariantId": "ses_mov_0017_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0018",
+      "module": "movement",
+      "title": "Circuit full body doux (30 min)",
+      "durationSec": 1800,
+      "level": "intermediate",
+      "focus": [
+        "mov_strength",
+        "support_energy",
+        "time_30min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Circuit",
+          "rounds": 3,
+          "items": [
+            {
+              "name": "Squat",
+              "reps": 12
+            },
+            {
+              "name": "Pompes genoux",
+              "reps": 10
+            },
+            {
+              "name": "Pont fessier",
+              "reps": 12
+            },
+            {
+              "name": "Gainage",
+              "durationSec": 30
+            }
+          ],
+          "restSec": 60
+        },
+        {
+          "type": "cooldown",
+          "name": "Étirements doux",
+          "durationSec": 240
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0018_s",
+        "easierVariantId": "ses_mov_0018_e",
+        "noImpactVariantId": "ses_mov_0018_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0019",
+      "module": "movement",
+      "title": "Mobilité épaules & nuque (10 min)",
+      "durationSec": 600,
+      "level": "beginner",
+      "focus": [
+        "mov_mobility",
+        "support_stress_down",
+        "time_10min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Mobilité nuque/épaules",
+          "durationSec": 120
+        },
+        {
+          "type": "work",
+          "name": "Mobilité colonne (debout)",
+          "durationSec": 150
+        },
+        {
+          "type": "cooldown",
+          "name": "Respiration 4-6",
+          "durationSec": 330
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0019_s",
+        "easierVariantId": "ses_mov_0019_e",
+        "noImpactVariantId": "ses_mov_0019_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0020",
+      "module": "movement",
+      "title": "Ancrage & respiration active (10 min)",
+      "durationSec": 600,
+      "level": "beginner",
+      "focus": [
+        "mov_breath_active",
+        "support_energy",
+        "time_10min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Respiration diaphragmatique debout",
+          "durationSec": 180
+        },
+        {
+          "type": "work",
+          "name": "Cohérence 5-5",
+          "durationSec": 240
+        },
+        {
+          "type": "cooldown",
+          "name": "Ancrage debout",
+          "durationSec": 180
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0020_s",
+        "easierVariantId": "ses_mov_0020_e",
+        "noImpactVariantId": "ses_mov_0020_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0021",
+      "module": "movement",
+      "title": "Déverrouillage matin (10 min)",
+      "durationSec": 600,
+      "level": "beginner",
+      "focus": [
+        "mov_mobility",
+        "support_energy",
+        "time_10min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Mobilité nuque/épaules",
+          "durationSec": 120
+        },
+        {
+          "type": "work",
+          "name": "Mobilité colonne (debout)",
+          "durationSec": 150
+        },
+        {
+          "type": "cooldown",
+          "name": "Respiration 4-6",
+          "durationSec": 330
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0021_s",
+        "easierVariantId": "ses_mov_0021_e",
+        "noImpactVariantId": "ses_mov_0021_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0022",
+      "module": "movement",
+      "title": "Mobilité hanches & dos (20 min)",
+      "durationSec": 1200,
+      "level": "beginner",
+      "focus": [
+        "mov_mobility",
+        "support_stress_down",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Chat-vache",
+          "durationSec": 180
+        },
+        {
+          "type": "work",
+          "name": "Rotations thoraciques",
+          "durationSec": 180
+        },
+        {
+          "type": "work",
+          "name": "90/90 hanches (doux)",
+          "durationSec": 180
+        },
+        {
+          "type": "cooldown",
+          "name": "Respiration allongée",
+          "durationSec": 180
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0022_s",
+        "easierVariantId": "ses_mov_0022_e",
+        "noImpactVariantId": "ses_mov_0022_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0023",
+      "module": "movement",
+      "title": "Renfo bas du corps (20 min)",
+      "durationSec": 1200,
+      "level": "beginner",
+      "focus": [
+        "mov_strength",
+        "support_recovery",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Squat assisté",
+          "sets": 3,
+          "reps": 10,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Pont fessier",
+          "sets": 3,
+          "reps": 12,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Gainage",
+          "sets": 2,
+          "durationSec": 30,
+          "restSec": 60
+        },
+        {
+          "type": "cooldown",
+          "name": "Étirement doux",
+          "durationSec": 180
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0023_s",
+        "easierVariantId": "ses_mov_0023_e",
+        "noImpactVariantId": "ses_mov_0023_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0024",
+      "module": "movement",
+      "title": "Renfo haut du corps (20 min)",
+      "durationSec": 1200,
+      "level": "beginner",
+      "focus": [
+        "mov_strength",
+        "support_energy",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Pompes murales / genoux",
+          "sets": 3,
+          "reps": 10,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Row serviette (isométrique)",
+          "sets": 3,
+          "durationSec": 25,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Planche",
+          "sets": 2,
+          "durationSec": 35,
+          "restSec": 60
+        },
+        {
+          "type": "cooldown",
+          "name": "Ouverture thoracique",
+          "durationSec": 180
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0024_s",
+        "easierVariantId": "ses_mov_0024_e",
+        "noImpactVariantId": "ses_mov_0024_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0025",
+      "module": "movement",
+      "title": "Core & posture (20 min)",
+      "durationSec": 1200,
+      "level": "intermediate",
+      "focus": [
+        "mov_strength",
+        "goal_focus",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Dead bug",
+          "sets": 3,
+          "reps": 10,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Side plank genoux",
+          "sets": 2,
+          "durationSec": 25,
+          "restSec": 45
+        },
+        {
+          "type": "work",
+          "name": "Bird-dog",
+          "sets": 2,
+          "reps": 10,
+          "restSec": 45
+        },
+        {
+          "type": "cooldown",
+          "name": "Étirement dorsal",
+          "durationSec": 120
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0025_s",
+        "easierVariantId": "ses_mov_0025_e",
+        "noImpactVariantId": "ses_mov_0025_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0026",
+      "module": "movement",
+      "title": "Yoga soleil A (doux) (20 min)",
+      "durationSec": 1200,
+      "level": "beginner",
+      "focus": [
+        "mov_yoga",
+        "support_stress_down",
+        "time_20min"
+      ],
+      "steps": [
+        {
+          "type": "warmup",
+          "name": "Respiration nasale",
+          "durationSec": 60
+        },
+        {
+          "type": "work",
+          "name": "Salutation au soleil A (lent)",
+          "rounds": 6,
+          "restSec": 20
+        },
+        {
+          "type": "cooldown",
+          "name": "Posture de l’enfant",
+          "durationSec": 180
+        },
+        {
+          "type": "cooldown",
+          "name": "Torsion douce au sol",
+          "durationSec": 120
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0026_s",
+        "easierVariantId": "ses_mov_0026_e",
+        "noImpactVariantId": "ses_mov_0026_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_orange",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0027",
+      "module": "movement",
+      "title": "Récupération active (10 min)",
+      "durationSec": 600,
+      "level": "beginner",
+      "focus": [
+        "mov_recovery",
+        "support_sleep",
+        "time_10min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Marche sur place très douce",
+          "durationSec": 120
+        },
+        {
+          "type": "work",
+          "name": "Mobilité chevilles",
+          "durationSec": 90
+        },
+        {
+          "type": "work",
+          "name": "Mobilité hanches",
+          "durationSec": 90
+        },
+        {
+          "type": "cooldown",
+          "name": "Respiration 4-6",
+          "durationSec": 120
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0027_s",
+        "easierVariantId": "ses_mov_0027_e",
+        "noImpactVariantId": "ses_mov_0027_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0028",
+      "module": "movement",
+      "title": "Circuit full body doux (30 min)",
+      "durationSec": 1800,
+      "level": "intermediate",
+      "focus": [
+        "mov_strength",
+        "support_energy",
+        "time_30min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Circuit",
+          "rounds": 3,
+          "items": [
+            {
+              "name": "Squat",
+              "reps": 12
+            },
+            {
+              "name": "Pompes genoux",
+              "reps": 10
+            },
+            {
+              "name": "Pont fessier",
+              "reps": 12
+            },
+            {
+              "name": "Gainage",
+              "durationSec": 30
+            }
+          ],
+          "restSec": 60
+        },
+        {
+          "type": "cooldown",
+          "name": "Étirements doux",
+          "durationSec": 240
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0028_s",
+        "easierVariantId": "ses_mov_0028_e",
+        "noImpactVariantId": "ses_mov_0028_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0029",
+      "module": "movement",
+      "title": "Mobilité épaules & nuque (10 min)",
+      "durationSec": 600,
+      "level": "beginner",
+      "focus": [
+        "mov_mobility",
+        "support_stress_down",
+        "time_10min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Mobilité nuque/épaules",
+          "durationSec": 120
+        },
+        {
+          "type": "work",
+          "name": "Mobilité colonne (debout)",
+          "durationSec": 150
+        },
+        {
+          "type": "cooldown",
+          "name": "Respiration 4-6",
+          "durationSec": 330
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0029_s",
+        "easierVariantId": "ses_mov_0029_e",
+        "noImpactVariantId": "ses_mov_0029_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    },
+    {
+      "id": "ses_mov_0030",
+      "module": "movement",
+      "title": "Ancrage & respiration active (10 min)",
+      "durationSec": 600,
+      "level": "beginner",
+      "focus": [
+        "mov_breath_active",
+        "support_energy",
+        "time_10min"
+      ],
+      "steps": [
+        {
+          "type": "work",
+          "name": "Respiration diaphragmatique debout",
+          "durationSec": 180
+        },
+        {
+          "type": "work",
+          "name": "Cohérence 5-5",
+          "durationSec": 240
+        },
+        {
+          "type": "cooldown",
+          "name": "Ancrage debout",
+          "durationSec": 180
+        }
+      ],
+      "adaptations": {
+        "shorterVariantId": "ses_mov_0030_s",
+        "easierVariantId": "ses_mov_0030_e",
+        "noImpactVariantId": "ses_mov_0030_n"
+      },
+      "contraindicationHints": [
+        "douleur aiguë",
+        "vertiges",
+        "malaise"
+      ],
+      "media": {
+        "coverImageId": "img_bg_session_white",
+        "audioGuideId": "aud_voice_neutral_0001"
+      },
+      "note": "Rester dans une zone confortable. Arrêter si douleur aiguë ou malaise."
+    }
+  ]
+}
