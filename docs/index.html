@@ -1,54 +1,57 @@
 <!doctype html>
 <html lang="fr">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Holistic Armor — Web</title>
-  <link rel="stylesheet" href="./styles.css" />
-  <meta name="theme-color" content="#111111">
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+  <title>Holistic Armor™</title>
+  <meta name="theme-color" content="#0b0f14"/>
+  <link rel="manifest" href="./manifest.json"/>
+  <link rel="stylesheet" href="./app.css"/>
 </head>
 <body>
   <div id="app" class="app">
     <aside class="sidebar" id="sidebar">
       <div class="brand">
-        <div class="brand__title">Holistic Armor</div>
-        <div class="brand__sub">Web • Local-first</div>
+        <div class="brand-title">Holistic Armor</div>
+        <div class="brand-sub">Local-first • Non médical</div>
       </div>
-
-      <nav class="nav">
-        <a href="#/dashboard" class="nav__item" data-route="dashboard">Tableau de bord</a>
-        <a href="#/today" class="nav__item" data-route="today">Aujourd’hui</a>
-        <a href="#/sessions" class="nav__item" data-route="sessions">Séances</a>
-        <a href="#/nutrition" class="nav__item" data-route="nutrition">Nutrition</a>
-        <a href="#/journal" class="nav__item" data-route="journal">Journal</a>
-        <a href="#/charts" class="nav__item" data-route="charts">Courbes</a>
-        <a href="#/chat" class="nav__item" data-route="chat">Chat IA</a>
-        <a href="#/settings" class="nav__item" data-route="settings">Paramètres</a>
-        <a href="#/legal" class="nav__item" data-route="legal">RGPD & sécurité</a>
+      <nav class="nav" id="nav">
+        <button class="nav-item active" data-route="dashboard">Tableau de bord</button>
+        <button class="nav-item" data-route="today">Aujourd’hui</button>
+        <button class="nav-item" data-route="sessions">Séances</button>
+        <button class="nav-item" data-route="nutrition">Nutrition</button>
+        <button class="nav-item" data-route="journal">Journal</button>
+        <button class="nav-item" data-route="charts">Courbes</button>
+        <button class="nav-item" data-route="chat">Chat</button>
+        <button class="nav-item" data-route="settings">Paramètres</button>
+        <button class="nav-item" data-route="privacy">RGPD & sécurité</button>
       </nav>
-
-      <div class="sidebar__footer">
-        <button class="btn btn--ghost" id="btnExport">Exporter mes données</button>
-        <button class="btn btn--danger" id="btnErase">Supprimer mes données locales</button>
-        <div class="small" id="buildInfo"></div>
+      <div class="sidebar-foot">
+        <div class="pill" id="planBadge">Plan: Free</div>
+        <div class="muted small">Aucune donnée envoyée par défaut.</div>
       </div>
     </aside>
 
     <main class="main">
       <header class="topbar">
-        <button class="btn btn--ghost" id="btnToggleSidebar">☰</button>
-        <div class="topbar__right">
-          <span class="pill" id="pillQuote">…</span>
-          <span class="pill pill--warn" id="pillDisclaimer" title="Avertissement santé">Non médical</span>
-        </div>
+        <button id="burger" class="icon-btn" aria-label="Menu">☰</button>
+        <div id="quote" class="quote">…</div>
+        <button id="themeBtn" class="icon-btn" title="Thème">◐</button>
       </header>
-
-      <section class="content" id="view"></section>
+      <section class="content"><div id="view"></div></section>
     </main>
   </div>
 
-  <script src="./storage.js"></script>
-  <script src="./charts.js"></script>
-  <script src="./app.js"></script>
+  <dialog id="modal" class="modal">
+    <div class="modal-card">
+      <div class="modal-head">
+        <div id="modalTitle" class="modal-title">Détail</div>
+        <button id="modalClose" class="icon-btn" aria-label="Fermer">✕</button>
+      </div>
+      <div id="modalBody" class="modal-body"></div>
+    </div>
+  </dialog>
+
+  <script type="module" src="./app.js"></script>
 </body>
 </html>

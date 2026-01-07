@@ -1,0 +1,26 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-01-07",
+  "protocols": [
+    {
+      "id": "sleep_7d",
+      "title": "Routine sommeil 7 jours (non médical)",
+      "steps": [
+        "Heure fixe de lever (±60 min).",
+        "Lumière du jour 10–20 min le matin.",
+        "Caféine si possible avant 14h.",
+        "Écran: baisser luminosité 60 min avant coucher.",
+        "Routine 10 min: respiration + étirements doux."
+      ]
+    },
+    {
+      "id": "stress_reset",
+      "title": "Reset stress 5 min",
+      "steps": [
+        "Respiration 4–6 (inspire 4s, expire 6s) x 10 cycles.",
+        "Relâcher mâchoire/épaules.",
+        "Choisir une action simple à faire maintenant."
+      ]
+    }
+  ]
+}

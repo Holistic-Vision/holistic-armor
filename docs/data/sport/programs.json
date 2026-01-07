@@ -1,0 +1,163 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-01-07",
+  "catalog": [
+    {
+      "id": "mob_10",
+      "title": "Mobilité 10 min",
+      "durationMin": 10,
+      "tags": [
+        "doux",
+        "mobilité"
+      ],
+      "steps": [
+        {
+          "name": "Cou/épaules",
+          "sec": 120
+        },
+        {
+          "name": "Colonne (chat-vache)",
+          "sec": 120
+        },
+        {
+          "name": "Hanches",
+          "sec": 240
+        },
+        {
+          "name": "Respiration",
+          "sec": 120
+        }
+      ]
+    },
+    {
+      "id": "strength_lower_20",
+      "title": "Renfo bas du corps 20 min",
+      "durationMin": 20,
+      "tags": [
+        "modéré",
+        "force"
+      ],
+      "steps": [
+        {
+          "name": "Échauffement",
+          "sec": 180
+        },
+        {
+          "name": "Squats",
+          "sec": 240
+        },
+        {
+          "name": "Fentes",
+          "sec": 240
+        },
+        {
+          "name": "Pont fessier",
+          "sec": 240
+        },
+        {
+          "name": "Gainage",
+          "sec": 180
+        },
+        {
+          "name": "Retour au calme",
+          "sec": 120
+        }
+      ]
+    },
+    {
+      "id": "strength_upper_20",
+      "title": "Renfo haut du corps 20 min",
+      "durationMin": 20,
+      "tags": [
+        "modéré",
+        "force"
+      ],
+      "steps": [
+        {
+          "name": "Échauffement",
+          "sec": 180
+        },
+        {
+          "name": "Pompes inclinées",
+          "sec": 240
+        },
+        {
+          "name": "Row serviette",
+          "sec": 240
+        },
+        {
+          "name": "Dips chaise",
+          "sec": 240
+        },
+        {
+          "name": "Planche",
+          "sec": 180
+        },
+        {
+          "name": "Retour au calme",
+          "sec": 120
+        }
+      ]
+    },
+    {
+      "id": "core_posture_15",
+      "title": "Core & posture 15 min",
+      "durationMin": 15,
+      "tags": [
+        "doux",
+        "posture"
+      ],
+      "steps": [
+        {
+          "name": "Dead bug",
+          "sec": 240
+        },
+        {
+          "name": "Bird-dog",
+          "sec": 240
+        },
+        {
+          "name": "Side plank",
+          "sec": 180
+        },
+        {
+          "name": "Respiration",
+          "sec": 240
+        }
+      ]
+    },
+    {
+      "id": "breath_10",
+      "title": "Respiration & ancrage 10 min",
+      "durationMin": 10,
+      "tags": [
+        "doux",
+        "stress"
+      ],
+      "steps": [
+        {
+          "name": "Cohérence cardiaque",
+          "sec": 300
+        },
+        {
+          "name": "Scan corporel",
+          "sec": 180
+        },
+        {
+          "name": "Intention",
+          "sec": 120
+        }
+      ]
+    }
+  ],
+  "lifeStageCaps": {
+    "pregnancy": "doux",
+    "postpartum": "doux",
+    "menstruation": "modere",
+    "perimenopause": "modere",
+    "menopause": "modere",
+    "andropause": "modere",
+    "senior": "modere",
+    "adolescent": "modere"
+  }
+}

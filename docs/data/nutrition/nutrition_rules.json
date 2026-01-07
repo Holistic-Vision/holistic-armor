@@ -1,0 +1,161 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-01-07",
+  "types": {
+    "cut": {
+      "label": "Sèche / perte de graisse",
+      "variants": {
+        "moderate": {
+          "label": "Standard",
+          "notes": [
+            "Non médical: protéines à chaque repas + fibres + eau.",
+            "Ajuste portions selon faim, sommeil, activité."
+          ],
+          "meals": {
+            "breakfast": [
+              "Skyr/yaourt grec 250 g + fruits rouges + 15 g amandes",
+              "Omelette 2 œufs + 200 g blancs d’œufs + légumes"
+            ],
+            "lunch": [
+              "Poulet/dinde 180 g + légumes + 100–150 g féculent (si séance)",
+              "Steak 5% 180 g + salade + 1 càs huile d’olive"
+            ],
+            "snack": [
+              "Whey 25–30 g + 1 fruit",
+              "Fromage blanc 200 g + cannelle"
+            ],
+            "dinner": [
+              "Dinde/tofu 180–220 g + légumes + 1 càs huile d’olive",
+              "Oeufs 3 + légumes + yaourt nature"
+            ]
+          }
+        },
+        "carb_cycling": {
+          "label": "Carb Cycling",
+          "notes": [
+            "Jours ON (séance): glucides plus hauts. Jours OFF: plus bas.",
+            "Protéines stables, ajuster surtout les glucides."
+          ],
+          "meals": {
+            "breakfast": [
+              "ON: avoine 60 g + skyr 200 g + fruit | OFF: omelette 3 œufs + légumes",
+              "ON: pain complet 2 tranches + dinde | OFF: yaourt grec + noix"
+            ],
+            "lunch": [
+              "ON: riz/pâtes 120–160 g cuit + poulet 180 g + légumes",
+              "OFF: grande salade + poulet 200 g + huile d’olive"
+            ],
+            "snack": [
+              "ON: whey + banane | OFF: fromage blanc + cannelle",
+              "ON: yaourt + miel (option) | OFF: yaourt nature + noix"
+            ],
+            "dinner": [
+              "ON: patate douce 250 g + dinde 180 g + légumes",
+              "OFF: tofu + légumes + huile d’olive"
+            ]
+          }
+        }
+      }
+    },
+    "maintenance": {
+      "label": "Maintenance",
+      "variants": {
+        "moderate": {
+          "label": "Standard",
+          "notes": [
+            "Objectif: stabilité. Qualité des repas + activité.",
+            "Non médical: équilibrer protéines/glucides/lipides."
+          ],
+          "meals": {
+            "breakfast": [
+              "Omelette 3 œufs + pain complet 2 tranches + 1 fruit",
+              "Skyr 200 g + flocons d’avoine 60 g + 1 fruit"
+            ],
+            "lunch": [
+              "Poulet 180 g + riz 120 g cuit + légumes + huile d’olive",
+              "Tofu 220 g + nouilles 80 g cuites + wok légumes"
+            ],
+            "snack": [
+              "Fromage blanc 200 g + noix 20 g",
+              "Whey 25–30 g + banane"
+            ],
+            "dinner": [
+              "Dinde 180 g + quinoa 80 g cuit + légumes",
+              "Œufs 2 + salade + pain complet"
+            ]
+          }
+        }
+      }
+    },
+    "gain": {
+      "label": "Prise (léger surplus)",
+      "variants": {
+        "moderate": {
+          "label": "Standard",
+          "notes": [
+            "Non médical: surplus léger + renforcement + sommeil.",
+            "Priorité: protéines + glucides autour séance."
+          ],
+          "meals": {
+            "breakfast": [
+              "Avoine 70 g + yaourt grec 200 g + fruit (+ beurre de cacahuète option)",
+              "Omelette 3 œufs + pain complet + fruit"
+            ],
+            "lunch": [
+              "Poulet 200 g + riz 180 g cuit + légumes + huile d’olive",
+              "Steak 200 g + pommes de terre 350 g + légumes"
+            ],
+            "snack": [
+              "Whey 30 g + banane + noix 20 g",
+              "Fromage blanc 250 g + granola"
+            ],
+            "dinner": [
+              "Dinde 200 g + pâtes 160 g cuites + légumes",
+              "Tofu 250 g + quinoa 120 g cuit + légumes"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "dietFilters": {
+    "no_pork": [
+      "porc",
+      "lard"
+    ],
+    "vegetarian": [
+      "poulet",
+      "dinde",
+      "steak",
+      "thon",
+      "saumon",
+      "poisson"
+    ],
+    "vegan": [
+      "oeuf",
+      "yaourt",
+      "skyr",
+      "fromage",
+      "whey",
+      "poulet",
+      "dinde",
+      "steak",
+      "saumon",
+      "thon"
+    ],
+    "halal": [
+      "porc",
+      "lard"
+    ],
+    "kosher": [
+      "porc",
+      "lard"
+    ],
+    "pescatarian": [
+      "poulet",
+      "dinde",
+      "steak"
+    ]
+  },
+  "disclaimer": "Outil de bien-être/éducation. Non médical."
+}

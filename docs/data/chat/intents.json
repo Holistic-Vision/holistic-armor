@@ -1,0 +1,109 @@
+{
+  "version": "1.0.0",
+  "updated": "2026-01-07",
+  "lang": "fr",
+  "intents": [
+    {
+      "id": "greet",
+      "triggers": [
+        "bonjour",
+        "salut",
+        "hello",
+        "coucou",
+        "hey"
+      ],
+      "responses": [
+        "Salut. Objectif + temps dispo aujourd’hui + énergie (1–10) ?",
+        "Bonjour. Quel est ton objectif principal et combien de minutes tu as ?",
+        "Ok. Dis-moi objectif + contrainte (douleur/horaires) + énergie (1–10)."
+      ]
+    },
+    {
+      "id": "today_plan",
+      "triggers": [
+        "aujourd",
+        "plan",
+        "séance",
+        "programme",
+        "quoi faire"
+      ],
+      "responses": [
+        "Plan simple: mobilité 5–10 min + renfo léger 12–20 min + respiration 3 min. Tu préfères doux ou modéré ?",
+        "Plan express: échauffement 5 min, circuit 12 min, retour au calme 3 min. Focus graisse ou posture ?",
+        "Ok. Donne-moi ton temps dispo et s’il y a une douleur (oui/non)."
+      ]
+    },
+    {
+      "id": "nutrition",
+      "triggers": [
+        "nutrition",
+        "repas",
+        "menu",
+        "manger",
+        "carb",
+        "glucide",
+        "protéine",
+        "whey"
+      ],
+      "responses": [
+        "Nutrition: choisis objectif (sèche/maintenance/prise) + variante (standard/carb cycling) + nb de repas.",
+        "Ok. Indique allergies/exclusions + nb de repas, je te propose un menu du jour.",
+        "Compris. Objectif + contraintes (budget/religion) + nb de repas ?"
+      ]
+    },
+    {
+      "id": "sleep",
+      "triggers": [
+        "sommeil",
+        "dormir",
+        "fatigue",
+        "stress",
+        "cortisol"
+      ],
+      "responses": [
+        "Sommeil (non médical): heure coucher/réveil, caféine après 14h (oui/non), écran avant dodo (oui/non).",
+        "Ok. Donne ton horaire de sommeil + stress (1–10) et je te propose une routine simple.",
+        "Je peux proposer un protocole 7 jours. Ton rythme est stable ou travail de nuit ?"
+      ]
+    },
+    {
+      "id": "life_stage",
+      "triggers": [
+        "grossesse",
+        "enceinte",
+        "post partum",
+        "menstru",
+        "règles",
+        "menopause",
+        "andropause"
+      ],
+      "responses": [
+        "Noté. Non médical: on adapte intensité et récupération. Énergie (1–10), douleur (0–10), temps dispo ?",
+        "Ok. On privilégie progressif, technique, sommeil. Ton objectif prioritaire ?",
+        "Compris. Tu veux surtout: énergie, mobilité, ou renfo léger ?"
+      ]
+    },
+    {
+      "id": "medical_guard",
+      "triggers": [
+        "diagnostic",
+        "traitement",
+        "posologie",
+        "médicament",
+        "urgence",
+        "douleur thorac",
+        "sang",
+        "suicide"
+      ],
+      "responses": [
+        "Je ne peux pas faire de diagnostic/traitement/posologie. En cas d’urgence: 112/15. Sinon je peux donner des conseils généraux non médicaux.",
+        "Non médical: je ne remplace pas un pro. Si urgence: 112/15. Décris ton contexte et je donne des repères prudents."
+      ]
+    }
+  ],
+  "fallback": [
+    "Je n’ai pas compris. Reformule: objectif + minutes dispo + énergie (1–10).",
+    "Dis-moi objectif (graisse/force/mobilité/sommeil) + temps dispo aujourd’hui.",
+    "Je peux aider. Quel est ton objectif et quelles contraintes (douleur/horaires) ?"
+  ]
+}
